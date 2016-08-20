@@ -1,0 +1,59 @@
+{
+  "mfa_level": 0,
+  "emojis": [],
+  "verification_level": 0,
+  "name": "LANPartay",
+  "roles": [
+    {
+      "hoist": false,
+      "name": "@everyone",
+      "mentionable": false,
+      "color": 0,
+      "position": 0,
+      "id": "213359937894612993",
+      "managed": false,
+      "permissions": 104193025
+    },
+    {
+      "hoist": true,
+      "name": "Staff",
+      "mentionable": true,
+      "color": 12745742,
+      "position": 2,
+      "id": "213360173379485697",
+      "managed": false,
+      "permissions": 238541831
+    },
+    {
+      "hoist": false,
+      "name": "Administrators",
+      "mentionable": false,
+      "color": 11027200,
+      "position": 3,
+      "id": "213361675389239305",
+      "managed": false,
+      "permissions": 506977343
+    },
+    {
+      "hoist": true,
+      "name": "TayBot",
+      "mentionable": false,
+      "color": 2123412,
+      "position": 1,
+      "id": "214714629400690688",
+      "managed": false,
+      "permissions": 536345663
+    }
+  ],
+  "afk_timeout": 300,
+  "region": "london",
+  "default_message_notifications": 0,
+  "embed_channel_id": null,
+  "splash": null,
+  "features": [],
+  "afk_channel_id": "214711364529160192",
+  "owner_id": "49558744991793152",
+  "embed_enabled": false,
+  "id": "213359937894612993",
+  "icon": "e39892c2b5c2fcdb5691cb9bedad8d44"
+}

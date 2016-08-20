@@ -1,0 +1,59 @@
+[
+  {
+    "guild_id": "213359937894612993",
+    "name": "lanpartay",
+    "permission_overwrites": [],
+    "topic": "",
+    "position": 0,
+    "last_message_id": "215186988356206592",
+    "type": "text",
+    "id": "213359937894612993",
+    "is_private": false
+  },
+  {
+    "permission_overwrites": [],
+    "name": "General",
+    "user_limit": 0,
+    "type": "voice",
+    "position": 0,
+    "guild_id": "213359937894612993",
+    "bitrate": 64000,
+    "id": "213359939014361088",
+    "is_private": false
+  },
+  {
+    "guild_id": "213359937894612993",
+    "name": "staff",
+    "permission_overwrites": [
+      {
+        "deny": 1024,
+        "type": "role",
+        "id": "213359937894612993",
+        "allow": 0
+      },
+      {
+        "deny": 0,
+        "type": "role",
+        "id": "213360173379485697",
+        "allow": 1024
+      }
+    ],
+    "topic": "",
+    "position": 0,
+    "last_message_id": "213361525342208000",
+    "type": "text",
+    "id": "213360141389660173",
+    "is_private": false
+  },
+  {
+    "permission_overwrites": [],
+    "name": "AFK",
+    "user_limit": 0,
+    "type": "voice",
+    "position": 1,
+    "guild_id": "213359937894612993",
+    "bitrate": 64000,
+    "id": "214711364529160192",
+    "is_private": false
+  }
+]
