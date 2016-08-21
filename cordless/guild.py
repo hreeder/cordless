@@ -1,4 +1,4 @@
-""" Discord Guild - pycord.guild.Guild """
+""" Discord Guild """
 from cordless.channel import Channel
 from cordless.role import Role
 
