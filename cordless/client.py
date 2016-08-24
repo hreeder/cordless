@@ -25,3 +25,21 @@ class Client:
         )
 
         return resp.json()
+
+    def post(self, path, data=None):
+        resp = requests.post(
+            "{}{}".format(BASE_URL, path),
+            json=data,
+            headers=self.get_headers()
+        )
+
+        return resp.json()
+
+    def patch(self, path, data):
+        resp = requests.patch(
+            "{}{}".format(BASE_URL, path),
+            json=data,
+            headers=self.get_headers()
+        )
+
+        return resp.json()

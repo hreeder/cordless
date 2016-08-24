@@ -1,0 +1,11 @@
+{
+  "guild_id": "213359937894612993",
+  "name": "test_channel",
+  "permission_overwrites": [],
+  "topic": null,
+  "position": 1,
+  "last_message_id": null,
+  "type": "text",
+  "id": "217637026294530049",
+  "is_private": false
+}

@@ -1,3 +1,4 @@
 from .client import Client
 from .guild import Guild
-__ALL__ = ['Client', 'Guild']
+from . import permissions
+__ALL__ = ['Client', 'Guild', 'permissions']

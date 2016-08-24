@@ -29,3 +29,16 @@ class Guild:
     def get_channels(self):
         returned = self.client.get("guilds/{}/channels".format(self.id))
         return [Channel(self.client, parsed_response=channel) for channel in returned]
+
+    def create_channel(self, **kwargs):
+        returned = self.client.post("guilds/{}/channels".format(self.id), kwargs)
+        return Channel(self.client, parsed_response=returned)
+
+    def create_role(self, **kwargs):
+        returned = self.client.post("guilds/{}/roles".format(self.id))
+        role = Role(self.client, self, parsed_response=returned)
+
+        if kwargs:
+            role.update(**kwargs)
+
+        return role
